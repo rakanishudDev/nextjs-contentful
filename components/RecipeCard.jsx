@@ -14,7 +14,7 @@ const RecipeCard = ({recipe}) => {
         <div className="content">
             <div className="info">
                 <h4>{title}</h4>
-                <p>Takes approx {cookingTime}</p>
+                <p>Takes approx {cookingTime} min</p>
             </div>
             <div className="actions">
                 <Link href={'/recipes/' + slug}>
