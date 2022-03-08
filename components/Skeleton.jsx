@@ -9,7 +9,7 @@ const Skeleton = () => {
         <div className="s-content"></div>
         <div className="s-content"></div>
 
-        <style>
+        <style jsx>
             {`
             .skeleton {
                 max-width: 1200px;
